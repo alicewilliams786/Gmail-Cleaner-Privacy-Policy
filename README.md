@@ -1,4 +1,4 @@
-# Privacy Policy for Gmail Cleaner — AI-powered Gmail for spam detection and cleanup
+# Privacy Policy for Gmail Cleaner — AI-Powered Gmail Spam Detection & Cleanup
 
 **Last Updated:** April 11, 2026
 
@@ -8,63 +8,61 @@
 
 ## Introduction
 
-This Privacy Policy describes how Gmail Cleaner — AI-powered Gmail for spam detection and cleanup ("we", "our", or "the Chrome Extension") collects, uses, and protects your information. We are committed to protecting your privacy and being transparent about our data practices.
+This Privacy Policy describes how Gmail Cleaner ("the Extension") handles your information. We are committed to protecting your privacy and being transparent about our data practices.
 
 ## Information We Collect
 
-**We DO NOT collect any personal information or data.**
+**We do NOT collect any personal information on our servers.** All data is stored locally on your device in your browser's localStorage and is never transmitted to any server operated by the developer.
 
-Gmail Cleaner — AI-powered Gmail for spam detection and cleanup is designed with privacy in mind. All data, if any, is stored locally on your device and is never transmitted to external servers.
-
-## How We Use Your Information
-
-Since we don't collect any data, there is no usage of your information. All Chrome Extension functionality operates locally on your device.
+Sensitive credentials (Google Client ID, Gemini API key, IMAP password) are encrypted using AES encryption before being stored locally.
 
 ## Third-Party Services
 
-Gmail Cleaner — AI-powered Gmail for spam detection and cleanup uses the following third-party services:
+When you enable AI-powered spam classification, your email sender, subject, and body text are sent **directly from your browser** to the AI service you configured. The developer does not intercept or have access to this data.
 
-Google Gmail API, Gemini AI API, IMAP Client Library
+Gmail Cleaner uses the following third-party services:
 
-These services have their own privacy policies. We recommend reviewing their policies to understand how they handle your data.
+- **Google Gmail API** — to read, manage, and filter your emails
+- **Google Gemini API** — for AI spam classification (optional, user-enabled)
+- **Ollama** — for local AI spam classification (optional, user-enabled)
+
+These services have their own privacy policies. We recommend reviewing them.
+
+## Google OAuth Permissions
+
+The Extension requests Gmail permissions to read your emails for spam analysis, move emails to Trash when you request deletion, and create Gmail filters when you request sender blocking.
 
 ## Data Storage and Security
 
-All data is stored locally on your device. We do not have access to your data, and it is never transmitted to our servers or any third parties.
+All data is stored locally on your device. We do not have access to your data, and it is never transmitted to our servers or any third parties (except the AI services you explicitly enable).
 
 ## Your Rights
 
-You have the following rights regarding your data:
-
-- **Access:** View what data we have (if any)
-- **Deletion:** Delete your data by uninstalling the Chrome Extension
-- **Portability:** Export your data where applicable
-- **Opt-Out:** Disable features you're uncomfortable with
+- **Access:** View your data via browser developer tools at any time
+- **Deletion:** Delete all data by uninstalling the Extension or clearing localStorage
+- **Revoke Access:** Revoke Gmail permissions at [Google Account Permissions](https://myaccount.google.com/permissions)
+- **Opt-Out of AI:** Disable AI classification in settings to stop any data being sent to AI services
 
 ## Compliance
 
 ### GDPR Compliance (EU Users)
-We comply with the General Data Protection Regulation (GDPR):
-- Minimal data collection
+- Minimal data collection — all processing happens locally
 - Clear consent mechanisms
 - Right to access, delete, and port data
-- No automated decision-making
+- No automated decision-making without user initiation
 
 ### CCPA Compliance (California Users)
-We comply with the California Consumer Privacy Act (CCPA):
 - We do not sell personal information
 - You can request data deletion
 - You can opt-out of data collection
 
 ### COPPA Compliance (Children's Privacy)
-Gmail Cleaner — AI-powered Gmail for spam detection and cleanup complies with the Children's Online Privacy Protection Act (COPPA):
 - We do not knowingly collect data from children under 13
-- No targeted content for children
-- Parental consent required where applicable
+- This Extension is not directed at children
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of Gmail Cleaner — AI-powered Gmail for spam detection and cleanup after changes constitutes acceptance of the updated policy.
+We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of the Extension after changes constitutes acceptance of the updated policy.
 
 ## Contact Us
 
@@ -78,4 +76,4 @@ We aim to respond to all inquiries within 48 hours.
 
 **Effective Date:** April 11, 2026
 
-By using Gmail Cleaner — AI-powered Gmail for spam detection and cleanup, you acknowledge that you have read and understood this Privacy Policy.
+By using Gmail Cleaner, you acknowledge that you have read and understood this Privacy Policy.
